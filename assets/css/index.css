@@ -1,0 +1,516 @@
+.content-area {
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 75px 0px;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Adobe Clean Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adobe Clean Regular'), url('../fonts/AdobeCleanRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Adobe Clean Black';
+    src: local('Adobe Clean Black'), url('../fonts/AdobeCleanBlack.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adobe Clean Light';
+    src: local('Adobe Clean Light'), url('../fonts/AdobeCleanLight.otf') format('opentype');
+    font-style: normal;
+}
+
+/* BANNER HOMEPAGE */
+
+
+nav ul {
+    width: 600px;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    z-index: 2;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Adobe Clean Light';
+    text-decoration: none;
+}
+
+nav a:hover {
+    transition: 0.6s;
+    background-color: white;
+    border: 1px none white;
+    border-radius: 10px;
+    color: black;
+    padding: 8px 10px;
+}
+
+.slider-BannerHomepage {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    height: 550px;
+}
+
+.slider-BannerHomepage .slider-BannerHomepage-items {
+    width: 100%;
+    height: 550px;
+}
+
+.slider-BannerHomepage .slider-BannerHomepage-items img {
+    width: 100%;
+    height: 550px;
+    opacity: 0.8;
+}
+
+.div-logo {
+    position: relative;
+    left: 33%;
+    width: 550px;
+}
+
+.subtitle-BannerHomepage {
+    font-family: 'Adobe Clean Regular';
+    color: #747474;
+    font-size: 30px;
+    border-bottom: 1px solid #8F9090;
+    width: 600px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: -40%;
+    left: 29%;
+}
+
+/* DIABLO 4 */
+
+
+.text-Preview {
+    float: left;
+    width: 400px;
+    font-family: 'Adobe Clean Regular';
+    position: relative;
+    left: 140px;
+}
+
+.title-Preview {
+    font-size: 30px;
+    color: #747474;
+    font-weight: normal;
+}
+
+.paragraph-Preview {
+    line-height: 1.8;
+    color: #747474;
+}
+
+.image-div-Preview {
+    float: right;
+    position: relative;
+    right: 80px;
+}
+
+.image-Preview {
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+
+/* MSI - PAIN */
+
+.MSI {
+    width: 1200px;
+}
+
+.image-MSI {
+    width: 560px;
+    height: 650px;
+    border-radius: 40px;
+    box-shadow: 445px 0px 0px 0px #FF0000;
+    float: left;
+    position: relative;
+    left: 10%;
+}
+
+.text-MSI {
+    float: right;
+    width: 330px;
+    position: relative;
+    right: 12%;
+    padding-top: 25px;
+    color: white;
+    font-family: 'Adobe Clean Light';
+}
+
+.paragraph-MSI {
+    line-height: 1.8;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+#MSIButtom {
+    background: black;
+    color: white;
+    border: 1px none white;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 10px;
+    font-family: 'Adobe Clean Regular';
+    text-decoration: none;
+}
+
+#MSIButtom:hover {
+    transition: 0.6s;
+    background: white;
+    color: black;
+}
+
+/* STORE ACCESS */
+
+.StoreAccess {
+    margin-top: 75px;
+}
+
+.title-StoreAccess {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+.title-StoreAccess:hover {
+    font-size: 33px;
+    transition: 0.6s;
+}
+
+.div-image-StoreAccess {
+    float: left;
+    position: relative;
+    left: 10%;
+    padding-top: 25px;
+}
+
+.div-StoreAccess {
+    float: right;
+    position: relative;
+    text-align: center;
+    background-color: #007FFC;
+    color: white;
+    padding: 50px 45px 50px 45px;
+    border-radius: 50%;
+    font-family: 'Adobe Clean Regular';
+}
+
+.div-borda-StoreAccess {
+    padding: 40px 50px 40px 50px;
+    border-radius: 50%;
+    background-color: #0000FF;
+    position: relative;
+    right: 10%;
+    float: right;
+}
+
+.title-StoreAccess {
+    line-height: 0.5;
+}
+
+/* GAMEPLAY DESTAQUE DA SEMANA */
+
+#Gameplay .content-area {
+    padding: 40px 0px 0px 0px;
+}
+
+.Gameplay {
+    position: relative;
+    left: 15%;
+}
+
+.text-Gameplay {
+    color: #007FFC;
+    font-weight: normal;
+    font-family: 'Adobe Clean Black';
+    line-height: 0.4;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.title-Gameplay {
+    font-size: 45px;
+}
+
+.subtitle-Gameplay {
+    font-size: 23px;
+    position: relative;
+    left: 8.5%;
+    font-weight: bold;
+}
+
+.exclamacao-div-Gameplay {
+    position: absolute;
+    left: 66.5%;
+    top: 6.6%;
+    width: 40px;
+    height: 40px;
+}
+
+.exclamacao-Gameplay {
+    width: 40px;
+    height: 40px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #FF0000;
+    border-radius: 35px 50px 0 0;
+}
+
+.info-Footer {
+    font-family: 'Adobe Clean Light';
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+.final1-Footer {
+    position: relative;
+    left: 35%;
+}
+
+.final2-Footer {
+    position: relative;
+    left: 30%;
+}
+
+.text-marca-Footer {
+    color: white;
+    font-weight: bold;
+}
+
+.text-Footer {
+    text-align: center;
+    color: #CFE7FE;
+    font-family: 'Adobe Clean Light';
+    width: 520px;
+}
+
+.image-Arrow {
+    position: relative;
+    left: 46%;
+}
+
+/* BEGIN NEWS PAGE */
+
+/* NEWS 1 */
+
+.News1 {
+    margin-top: 50px;
+}
+
+.text-News1 {
+    font-family: 'Adobe Clean Regular';
+    position: relative;
+    left: 140px;
+}
+
+.title-News1 {
+    font-size: 35px;
+    color: #747474;
+    font-weight: normal;
+    margin-left: 45px;
+    margin-bottom: 50px;
+    border: 1px none transparent;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #F1F3F4;
+    width: 850px;
+    padding: 11px 0;
+    text-align: center;
+}
+
+.paragraph1-News1, .paragraph2-News1 {
+    line-height: 1.8;
+    color: #747474;
+    width: 800px;
+    margin-left: 75px;
+}
+
+.image-div-News1 {
+    position: relative;
+    left: 12%;
+}
+
+.image-News1 {
+    width: 900px;
+    height: 450px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+/* NEWS 2 */
+
+.News2 {
+    margin-top: 50px;
+}
+
+.text-News2 {
+    float: left;
+    width: 400px;
+    font-family: 'Adobe Clean Regular';
+    position: relative;
+    left: 140px;
+    top: 5px;
+}
+
+.title-News2 {
+    font-size: 32px;
+    color: #747474;
+    font-weight: normal;
+}
+
+.paragraph-News2 {
+    line-height: 2.0;
+    color: #747474;
+}
+
+.image-div-News2 {
+    float: right;
+    position: relative;
+    right: 80px;
+}
+
+.image-News2 {
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+/* NEWS 3 */
+
+.News3 {
+    margin-top: 50px;
+}
+
+.text-News3 {
+    float: right;
+    width: 400px;
+    font-family: 'Adobe Clean Regular';
+    position: relative;
+    right: 8%;
+}
+
+.title-News3 {
+    font-size: 30px;
+    color: #747474;
+    font-weight: normal;
+}
+
+.paragraph-News3 {
+    line-height: 1.8;
+    color: #747474;
+}
+
+.image-div-News3 {
+    float: left;
+    position: relative;
+    left: 11%;
+}
+
+.image-News3 {
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+/* END NEWS PAGE */
+
+/* BEGIN CONTACT PAGE */
+
+.div-form {
+    text-align: center;
+}
+
+.input-padrao {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 340px;
+    padding: 8px 10px;
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid #D3EFFB;
+    background-color: #D3EFFB;
+    color: black;
+    font-family: 'Adobe Clean Light';
+    font-size: 15px;
+}
+
+.title-form {
+    font-family: 'Adobe Clean Black';
+    font-weight: bold;
+    color: #007FFC;
+    font-size: 20px;
+    width: 300px;
+}
+
+.div-form fieldset {
+    position: relative;
+    right: 3%;    
+}
+
+.field-contact {
+    width: 230px;
+    margin-left: 570px;
+    border: 1px none white;
+}
+
+.choices-contact {
+    font-family: 'Adobe Clean Light';
+    color: #007FFC;
+    font-weight: bold;
+}
+
+.checkbox {
+    font-family: 'Adobe Clean Regular';
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    margin: 0 15px 0 0;
+    padding: 30px 0;
+}
+
+.submit {
+    background: red;
+    color: white;
+    border: 1px none white;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    padding: 9px 10px;
+    font-family: 'Adobe Clean Regular';
+    text-decoration: none;
+}
+
+.submit:hover {
+    background: #007FFC;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+
+/* END CONTACT PAGE */
