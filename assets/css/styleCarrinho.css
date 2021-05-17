@@ -12,6 +12,10 @@
     100%{  border-color: #007FFC; }
 }
 
+body {
+    overflow-x: hidden;
+}
+
 section {
     box-sizing: border-box;
     margin: 0;
